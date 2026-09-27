@@ -27,6 +27,7 @@ from strands.tools.mcp.mcp_client import MCPClient
 from mcp.client.streamable_http import streamable_http_client
 import argparse, json
 import os, asyncio, boto3
+import nest_asyncio
 from strands.hooks import (
     HookProvider, AfterInvocationEvent, HookRegistry, MessageAddedEvent,
 )
@@ -604,6 +605,17 @@ async def invoke(payload, context=None):
             memory_id=MEMORY_ID,
         )
 
+        # _original_nest_asyncio_apply = nest_asyncio.apply
+        # nest_asyncio.apply = lambda: None
+        
+        # try:
+        #     agent_core_browser = AgentCoreBrowser(region=REGION)
+        # finally:
+        #     nest_asyncio.apply = _original_nest_asyncio_apply
+                # Python 3.14 + nest_asyncio can cause an AnyIO weak-reference failure.
+        # Keep the patch active for browser execution, not just construction.
+        nest_asyncio.apply = lambda: None
+
         agent_core_browser = AgentCoreBrowser(region=REGION)
 
         tools = [
@@ -649,7 +661,8 @@ Be concise unless the customer asks for more detail.
             )
 
             print("Stage: Invoking agent")
-            response = agent(user_input)
+            # response = agent(user_input)
+            response = await asyncio.create_task(asyncio.to_thread(agent, user_input))
 
         print("Stage: Agent response received")
         message = getattr(response, "message", None)

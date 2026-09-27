@@ -4,3 +4,13 @@ venv/
 venv314/
 __pycache__/
 *.pyc
+
+# Build and junk artifacts
+build/
+dist/
+*.egg-info/
+.DS_Store
+Any
+Dict*
+None
+.bedrock_agentcore/

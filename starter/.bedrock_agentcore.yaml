@@ -32,7 +32,7 @@ agents:
     bedrock_agentcore:
       agent_id: customer_support_agent-WOlrNpFLIt
       agent_arn: arn:aws:bedrock-agentcore:us-east-1:084942134421:runtime/customer_support_agent-WOlrNpFLIt
-      agent_session_id: eb597fe4-5944-4f6e-8d76-61a5a2df3d2e
+      agent_session_id: browser-test-session-20260927-TEST2
     codebuild:
       project_name: bedrock-agentcore-customer_support_agent-builder
       execution_role: arn:aws:iam::084942134421:role/AmazonBedrockAgentCoreSDKCodeBuild-us-east-1-aa96c3a063
