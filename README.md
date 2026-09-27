@@ -67,23 +67,67 @@ Enable the following models in the Amazon Bedrock console under **Model access**
 
 ```
 project/
-├── INSTRUCTIONS.md          ← this file
-├── RUBRIC.md                ← grading criteria
+├── INSTRUCTIONS.md          <- this file
+├── RUBRIC.md                <- grading criteria
 ├── starter/
-│   ├── main.py              ← your starting point (fill in the TODOs)
+│   ├── main.py              <- your starting point (fill in the TODOs)
+│   ├── evidence/            <- auto-generated test evidence (screenshots + txt)
 │   └── lambda/
-│       ├── order_tracker.py     ← provided; deploy as-is
-│       └── refund_processor.py  ← provided; deploy as-is
-└── solution/                ← reference implementation (do not copy)
+│       ├── order_tracker.py     <- provided; deploy as-is
+│       └── refund_processor.py  <- provided; deploy as-is
+├── testing_script_cli_evidence/
+│   └── run_tests.ps1        <- automated CLI test + evidence capture script
+└── solution/                <- reference implementation (do not copy)
     ├── main.py
     ├── product_catalog.txt
     ├── pyproject.toml
     ├── lambda/
     │   ├── order_tracker.py
     │   ├── refund_processor.py
-    │   └── lambda_schema       ← JSON schema for Gateway tool registration
-    └── step-by-step/           ← one file per build step (for reference)
+    │   └── lambda_schema       <- JSON schema for Gateway tool registration
+    └── step-by-step/           <- one file per build step (for reference)
 ```
+
+---
+
+## Automated Testing Script
+
+The folder `testing_script_cli_evidence/` contains `run_tests.ps1` — a PowerShell
+script that runs all 6 functional tests against the deployed AgentCore runtime,
+automatically captures terminal screenshots, and saves both `.png` and `.txt`
+evidence files to `starter/evidence/`.
+
+### Prerequisites
+
+- PowerShell on Windows
+- `venv314` virtualenv with `agentcore` CLI installed
+- Valid AWS credentials with access to the deployed AgentCore runtime
+- Agent already deployed via `agentcore deploy`
+
+### Usage
+
+```powershell
+# From the cd14763-project-starter directory:
+cd "path\to\cd14763-project-starter"
+
+# Activate the venv and run:
+.\testing_script_cli_evidence\run_tests.ps1
+```
+
+> **Tip:** Zoom out your terminal (`Ctrl + -`) and maximize the window before
+> running so that full responses are visible in the screenshots.
+
+The script will:
+
+1. Delete any existing files in `starter/evidence/` and start fresh
+2. Run Tests 1-6 sequentially, printing each command and response
+3. After each response, scroll the terminal to the bottom and capture a full-screen screenshot
+4. Save `evidence/01-order-tracking.png`, `02-refund-processing.png`, etc.
+5. Pause after each test so you can verify the output before continuing
+6. Wait 35 seconds automatically between Memory Session A (Test 4A) and Session B (Test 4B)
+
+> **Note:** Update the `AWS_*` credential variables at the top of the script
+> whenever your session token expires.
 
 ---
 
