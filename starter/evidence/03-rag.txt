@@ -1,0 +1,33 @@
+﻿=== TEST 3 - KNOWLEDGE BASE RAG (RERUN) ===
+Timestamp : 2026-09-27 05:25:27
+Command   : agentcore invoke '{prompt:What are the benefits of the Platinum loyalty tier?,customer_id:CUST-123,session_id:t3-rerun}'
+--- RESPONSE ---
++-------------------------- customer_support_agent ---------------------------+
+| Session: eb597fe4-5944-4f6e-8d76-61a5a2df3d2e                               |
+| Request ID: 50a0c6b1-2095-4255-8647-489bbd38385f                            |
+| ARN:                                                                        |
+| arn:aws:bedrock-agentcore:us-east-1:084942134421:runtime/customer_support_a |
+| gent-WOlrNpFLIt                                                             |
+| Logs: aws logs tail                                                         |
+| /aws/bedrock-agentcore/runtimes/customer_support_agent-WOlrNpFLIt-DEFAULT   |
+| --log-stream-name-prefix "2026/09/26/[runtime-logs]" --follow               |
+|       aws logs tail                                                         |
+| /aws/bedrock-agentcore/runtimes/customer_support_agent-WOlrNpFLIt-DEFAULT   |
+| --log-stream-name-prefix "2026/09/26/[runtime-logs]" --since 1h             |
+| GenAI Dashboard:                                                            |
+| https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-obse |
+| rvability/agent-core                                                        |
++-----------------------------------------------------------------------------+
+
+Response:
+### Platinum Loyalty Tier Benefits
+
+The Platinum tier offers these key benefits:
+
+- **Free same-day shipping** on eligible orders  
+- **15% discount** on purchases (higher than Gold's 10%)  
+- **Priority customer support** for faster issue resolution  
+
+Platinum members also have **5000 or more loyalty points**, allowing for 
+greater discounts and rewards redemption.
+

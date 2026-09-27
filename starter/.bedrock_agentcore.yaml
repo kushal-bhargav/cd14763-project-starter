@@ -11,12 +11,12 @@ agents:
     container_runtime: none
     source_path: C:\Users\KushalBhargav\OneDrive - Systech Solutions, Inc\udacity\project_2\cd14763-project-starter\starter
     aws:
-      execution_role: null
-      execution_role_auto_create: true
+      execution_role: arn:aws:iam::084942134421:role/AmazonBedrockAgentCoreSDKRuntime-us-east-1-aa96c3a063
+      execution_role_auto_create: false
       account: 084942134421
       region: us-east-1
-      ecr_repository: null
-      ecr_auto_create: true
+      ecr_repository: 084942134421.dkr.ecr.us-east-1.amazonaws.com/bedrock-agentcore-customer_support_agent
+      ecr_auto_create: false
       s3_path: null
       s3_auto_create: false
       network_configuration:
@@ -30,21 +30,21 @@ agents:
         idle_runtime_session_timeout: null
         max_lifetime: null
     bedrock_agentcore:
-      agent_id: null
-      agent_arn: null
-      agent_session_id: null
+      agent_id: customer_support_agent-WOlrNpFLIt
+      agent_arn: arn:aws:bedrock-agentcore:us-east-1:084942134421:runtime/customer_support_agent-WOlrNpFLIt
+      agent_session_id: eb597fe4-5944-4f6e-8d76-61a5a2df3d2e
     codebuild:
-      project_name: null
-      execution_role: null
-      source_bucket: null
+      project_name: bedrock-agentcore-customer_support_agent-builder
+      execution_role: arn:aws:iam::084942134421:role/AmazonBedrockAgentCoreSDKCodeBuild-us-east-1-aa96c3a063
+      source_bucket: bedrock-agentcore-codebuild-sources-084942134421-us-east-1
     memory:
-      mode: STM_AND_LTM
-      memory_id: CustomerSupportMemory-oOFd3NBjtp
-      memory_arn: null
-      memory_name: customer_support_agent_memory
+      mode: STM_ONLY
+      memory_id: customer_support_agent_mem-CmxKdFFuBC
+      memory_arn: arn:aws:bedrock-agentcore:us-east-1:084942134421:memory/customer_support_agent_mem-CmxKdFFuBC
+      memory_name: customer_support_agent_mem
       event_expiry_days: 30
-      first_invoke_memory_check_done: false
-      was_created_by_toolkit: false
+      first_invoke_memory_check_done: true
+      was_created_by_toolkit: true
     identity:
       credential_providers: []
       workload: null

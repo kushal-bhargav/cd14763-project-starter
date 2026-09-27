@@ -1,0 +1,946 @@
+{
+    "events": [
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:14.471654 Running on CodeBuild On-demand\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:14.471678 Waiting for agent ping\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:14.608869 Waiting for DOWNLOAD_SOURCE\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:15.948301 Phase is DOWNLOAD_SOURCE\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:15.949347 CODEBUILD_SRC_DIR=/codebuild/output/src1514884597/src\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:15.949829 YAML location is /codebuild/readonly/buildspec.yml\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:15.951536 Setting HTTP client timeout to higher timeout for S3 source\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:15.951618 Processing environment variables\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.051814 No runtime version selected in buildspec.\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.072926 Moving to directory /codebuild/output/src1514884597/src\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.072956 Cache is not defined in the buildspec\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.109458 Skip cache due to: no paths specified to be cached\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.109696 Registering with agent\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.136122 Phases found in YAML: 2\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.136146  BUILD: 4 commands\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.136149  POST_BUILD: 3 commands\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.136355 Phase complete: DOWNLOAD_SOURCE State: SUCCEEDED\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.136368 Phase context status code:  Message: \n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.222504 Entering phase INSTALL\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.253398 Phase complete: INSTALL State: SUCCEEDED\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.253419 Phase context status code:  Message: \n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.284563 Entering phase PRE_BUILD\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.286089 Phase complete: PRE_BUILD State: SUCCEEDED\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.286103 Phase context status code:  Message: \n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.321645 Entering phase BUILD\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.358088 Running command echo \"Starting parallel Docker build and ECR authentication...\"\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "Starting parallel Docker build and ECR authentication...\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "[Container] 2026/09/26 22:04:16.364728 Running command docker build -t bedrock-agentcore-arm64 . &\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "BUILD_PID=$!\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "aws ecr get-login-password --region $AWS_DEFAULT_REGION | \\\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "docker login --username AWS --password-stdin 084942134421.dkr.ecr.us-east-1.amazonaws.com/bedrock-agentcore-customer_support_agent &\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "AUTH_PID=$!\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "echo \"Waiting for Docker build to complete...\"\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "wait $BUILD_PID\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "if [ $? -ne 0 ]; then\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "  echo \"Docker build failed\"\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "  exit 1\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "fi\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "echo \"Waiting for ECR authentication to complete...\"\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "wait $AUTH_PID\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "if [ $? -ne 0 ]; then\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "  echo \"ECR authentication failed\"\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "  exit 1\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "fi\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "echo \"Both build and auth completed successfully\"\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "Waiting for Docker build to complete...\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#0 building with \"default\" instance using docker driver\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#1 [internal] load build definition from Dockerfile\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#1 transferring dockerfile: 880B done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#1 DONE 0.0s\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#2 [internal] load metadata for ghcr.io/astral-sh/uv:python3.13-bookworm-slim\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#2 DONE 0.3s\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#3 [internal] load .dockerignore\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#3 transferring context: 2B done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#3 DONE 0.0s\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#4 [internal] load build context\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#4 transferring context: 43.38kB done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#4 DONE 0.0s\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 [1/7] FROM ghcr.io/astral-sh/uv:python3.13-bookworm-slim@sha256:531f855bda2c73cd6ef67d56b733b357cea384185b3022bd09f05e002cd144ca\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 resolve ghcr.io/astral-sh/uv:python3.13-bookworm-slim@sha256:531f855bda2c73cd6ef67d56b733b357cea384185b3022bd09f05e002cd144ca 0.0s done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 sha256:d3d5d8ab26d25b9040a3c2160d7ddfe3911ae81035d5b1b0904f3ebda32476b6 19.92MB / 28.11MB 0.1s\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 sha256:bad0ddb8198ed94ad92f833897f593f239c9f83e10ba1e2ec50d6014002aa379 0B / 3.35MB 0.1s\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 sha256:5d3d91ef396ffba5a1f66f1b42447ed59e5e1a87544d69121c7fc328a364bd8a 10.49MB / 12.37MB 0.1s\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 sha256:531f855bda2c73cd6ef67d56b733b357cea384185b3022bd09f05e002cd144ca 2.22kB / 2.22kB done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 sha256:d5e34701320b43e3f110543e96d8ee5e676b9a716d9f6868a0d02e525fd30ded 1.25kB / 1.25kB done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 sha256:791edca0281388e41405694a31bb6bd6cbadb0f57effcb19639907ceed629d22 6.79kB / 6.79kB done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 sha256:d3d5d8ab26d25b9040a3c2160d7ddfe3911ae81035d5b1b0904f3ebda32476b6 28.11MB / 28.11MB 0.2s done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 sha256:bad0ddb8198ed94ad92f833897f593f239c9f83e10ba1e2ec50d6014002aa379 3.35MB / 3.35MB 0.2s done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 sha256:5d3d91ef396ffba5a1f66f1b42447ed59e5e1a87544d69121c7fc328a364bd8a 12.37MB / 12.37MB 0.1s done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 sha256:4ab2ab52f4e7cbac67dfa0bbcedc4a78e76742817a145c72297b30e8a028c86c 256B / 256B 0.2s done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 sha256:0de37f8e0ae5c7bf8ef3dcb1b623dc99c8f028c97bf20f9f4ab80f52309a9ff0 0B / 21.47MB 0.2s\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 sha256:0de37f8e0ae5c7bf8ef3dcb1b623dc99c8f028c97bf20f9f4ab80f52309a9ff0 21.47MB / 21.47MB 0.3s\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 extracting sha256:d3d5d8ab26d25b9040a3c2160d7ddfe3911ae81035d5b1b0904f3ebda32476b6\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 sha256:0de37f8e0ae5c7bf8ef3dcb1b623dc99c8f028c97bf20f9f4ab80f52309a9ff0 21.47MB / 21.47MB 0.3s done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 extracting sha256:d3d5d8ab26d25b9040a3c2160d7ddfe3911ae81035d5b1b0904f3ebda32476b6 0.9s done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 extracting sha256:bad0ddb8198ed94ad92f833897f593f239c9f83e10ba1e2ec50d6014002aa379 0.1s\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 extracting sha256:bad0ddb8198ed94ad92f833897f593f239c9f83e10ba1e2ec50d6014002aa379 0.1s done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 extracting sha256:5d3d91ef396ffba5a1f66f1b42447ed59e5e1a87544d69121c7fc328a364bd8a 0.1s\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 extracting sha256:5d3d91ef396ffba5a1f66f1b42447ed59e5e1a87544d69121c7fc328a364bd8a 0.5s done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 extracting sha256:4ab2ab52f4e7cbac67dfa0bbcedc4a78e76742817a145c72297b30e8a028c86c done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 extracting sha256:0de37f8e0ae5c7bf8ef3dcb1b623dc99c8f028c97bf20f9f4ab80f52309a9ff0\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 extracting sha256:0de37f8e0ae5c7bf8ef3dcb1b623dc99c8f028c97bf20f9f4ab80f52309a9ff0 0.3s done\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#5 DONE 2.4s\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460259987,
+            "message": "#6 [2/7] WORKDIR /app\n",
+            "ingestionTime": 1790460260015
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "#6 DONE 1.6s\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "#7 [3/7] COPY . .\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "#7 DONE 0.1s\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "#8 [4/7] RUN cd . && uv pip install .\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "#8 0.601 Using Python 3.13.11 environment at: /usr/local\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "#8 0.603   × No solution found when resolving dependencies:\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "#8 0.603   ╰─▶ Because the current Python version (3.13.11) does not satisfy\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "#8 0.603       Python>=3.14 and csai==0.1.0 depends on Python>=3.14, we can conclude\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "#8 0.603       that csai==0.1.0 cannot be used.\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "#8 0.603       And because only csai==0.1.0 is available and you require csai, we can\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "#8 0.603       conclude that your requirements are unsatisfiable.\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "#8 ERROR: process \"/bin/sh -c cd . && uv pip install .\" did not complete successfully: exit code: 1\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "------\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": " > [4/7] RUN cd . && uv pip install .:\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "0.601 Using Python 3.13.11 environment at: /usr/local\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "0.603   × No solution found when resolving dependencies:\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "0.603   ╰─▶ Because the current Python version (3.13.11) does not satisfy\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "0.603       Python>=3.14 and csai==0.1.0 depends on Python>=3.14, we can conclude\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "0.603       that csai==0.1.0 cannot be used.\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "0.603       And because only csai==0.1.0 is available and you require csai, we can\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "0.603       conclude that your requirements are unsatisfiable.\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "------\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "Dockerfile:19\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "--------------------\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "  17 |     COPY . .\r\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "  18 |     # Install from pyproject.toml directory\r\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "  19 | >>> RUN cd . && uv pip install .\r\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "  20 |     \r\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "  21 |     \r\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "--------------------\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "ERROR: failed to build: failed to solve: process \"/bin/sh -c cd . && uv pip install .\" did not complete successfully: exit code: 1\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "Docker build failed\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:21.882672 Command did not exit successfully docker build -t bedrock-agentcore-arm64 . &\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "BUILD_PID=$!\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "aws ecr get-login-password --region $AWS_DEFAULT_REGION | \\\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "docker login --username AWS --password-stdin 084942134421.dkr.ecr.us-east-1.amazonaws.com/bedrock-agentcore-customer_support_agent &\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "AUTH_PID=$!\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "echo \"Waiting for Docker build to complete...\"\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "wait $BUILD_PID\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "if [ $? -ne 0 ]; then\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "  echo \"Docker build failed\"\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "  exit 1\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "fi\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "echo \"Waiting for ECR authentication to complete...\"\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "wait $AUTH_PID\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "if [ $? -ne 0 ]; then\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "  echo \"ECR authentication failed\"\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "  exit 1\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "fi\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "echo \"Both build and auth completed successfully\"\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": " exit status 1\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:21.889183 Phase complete: BUILD State: FAILED\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:21.889198 Phase context status code: COMMAND_EXECUTION_ERROR Message: Error while executing command: docker build -t bedrock-agentcore-arm64 . &\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "BUILD_PID=$!\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "aws ecr get-login-password --region $AWS_DEFAULT_REGION | \\\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "docker login --username AWS --password-stdin 084942134421.dkr.ecr.us-east-1.amazonaws.com/bedrock-agentcore-customer_support_agent &\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "AUTH_PID=$!\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "echo \"Waiting for Docker build to complete...\"\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "wait $BUILD_PID\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "if [ $? -ne 0 ]; then\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "  echo \"Docker build failed\"\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "  exit 1\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "fi\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "echo \"Waiting for ECR authentication to complete...\"\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "wait $AUTH_PID\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "if [ $? -ne 0 ]; then\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "  echo \"ECR authentication failed\"\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "  exit 1\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "fi\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "echo \"Both build and auth completed successfully\"\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": ". Reason: exit status 1\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:21.927567 Entering phase POST_BUILD\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:21.928728 Running command echo \"Pushing versioned image to ECR...\"\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "Pushing versioned image to ECR...\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:21.938004 Running command docker push 084942134421.dkr.ecr.us-east-1.amazonaws.com/bedrock-agentcore-customer_support_agent:20260926-213353-020\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "The push refers to repository [084942134421.dkr.ecr.us-east-1.amazonaws.com/bedrock-agentcore-customer_support_agent]\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "An image does not exist locally with the tag: 084942134421.dkr.ecr.us-east-1.amazonaws.com/bedrock-agentcore-customer_support_agent\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:21.958390 Command did not exit successfully docker push 084942134421.dkr.ecr.us-east-1.amazonaws.com/bedrock-agentcore-customer_support_agent:20260926-213353-020 exit status 1\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:21.964402 Phase complete: POST_BUILD State: FAILED\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:21.964455 Phase context status code: COMMAND_EXECUTION_ERROR Message: Error while executing command: docker push 084942134421.dkr.ecr.us-east-1.amazonaws.com/bedrock-agentcore-customer_support_agent:20260926-213353-020. Reason: exit status 1\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:22.011580 Set report auto-discover timeout to 5 seconds\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:22.011625 Expanding base directory path:  .\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:22.014798 Assembling file list\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:22.014814 Expanding .\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:22.017935 Expanding file paths for base directory .\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:22.017951 Assembling file list\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:22.017954 Expanding **/*\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:22.021282 No matching auto-discover report paths found\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:22.021304 Report auto-discover file discovery took 0.009724 seconds\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:22.021312 Phase complete: UPLOAD_ARTIFACTS State: SUCCEEDED\n",
+            "ingestionTime": 1790460262042
+        },
+        {
+            "timestamp": 1790460262040,
+            "message": "[Container] 2026/09/26 22:04:22.021317 Phase context status code:  Message: \n",
+            "ingestionTime": 1790460262042
+        }
+    ],
+    "nextForwardToken": "f/39928598091848411335123063786242232521525030067966181471/s",
+    "nextBackwardToken": "b/39928598046064981442539694474219378874140014367067537408/s"
+}

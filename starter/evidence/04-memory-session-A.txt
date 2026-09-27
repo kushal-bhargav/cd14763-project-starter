@@ -1,0 +1,37 @@
+﻿=== TEST 4A - MEMORY SESSION A ===
+Timestamp : 2026-09-27 05:07:11
+Command   : agentcore invoke '{"prompt":"Hi, I am Jane. I prefer concise responses.","customer_id":"CUST-123","session_id":"s-A"}'
+--- RESPONSE ---
++-------------------------- customer_support_agent ---------------------------+
+| Session: eb597fe4-5944-4f6e-8d76-61a5a2df3d2e                               |
+| Request ID: 5da17f64-3df8-432e-889d-7d358b640e42                            |
+| ARN:                                                                        |
+| arn:aws:bedrock-agentcore:us-east-1:084942134421:runtime/customer_support_a |
+| gent-WOlrNpFLIt                                                             |
+| Logs: aws logs tail                                                         |
+| /aws/bedrock-agentcore/runtimes/customer_support_agent-WOlrNpFLIt-DEFAULT   |
+| --log-stream-name-prefix "2026/09/26/[runtime-logs]" --follow               |
+|       aws logs tail                                                         |
+| /aws/bedrock-agentcore/runtimes/customer_support_agent-WOlrNpFLIt-DEFAULT   |
+| --log-stream-name-prefix "2026/09/26/[runtime-logs]" --since 1h             |
+| GenAI Dashboard:                                                            |
+| https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-obse |
+| rvability/agent-core                                                        |
++-----------------------------------------------------------------------------+
+
+Response:
+Hello Jane! You have 2 orders:
+
+1. **ORD-001** - SHIPPED  
+   Wireless Headphones Pro ($89.99)  
+   UPS Tracking: TRK987654321  
+   Estimated Delivery: 2026-09-28  
+   Gold member discount applied: **$9.00 saved**  
+   New total: **$80.99**
+
+2. **ORD-002** - DELIVERED  
+   Kindle Paperwhite ($139.99)  
+   Delivered via USPS on 2026-09-23
+
+Your remaining loyalty points: 450
+

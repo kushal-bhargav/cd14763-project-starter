@@ -1,4 +1,4 @@
-FROM ghcr.io/astral-sh/uv:python3.13-bookworm-slim
+FROM ghcr.io/astral-sh/uv:python3.14-bookworm-slim
 WORKDIR /app
 
 # All environment variables in one layer
@@ -41,3 +41,4 @@ COPY . .
 # Use the full module path
 
 CMD ["opentelemetry-instrument", "python", "-m", "main"]
+

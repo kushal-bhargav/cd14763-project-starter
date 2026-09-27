@@ -1,0 +1,31 @@
+﻿=== TEST 2 - REFUND PROCESSING ===
+Timestamp : 2026-09-27 05:06:47
+Command   : agentcore invoke '{"prompt":"I want to return my Kindle Paperwhite (ORD-002). Please initiate a refund.","customer_id":"CUST-123","session_id":"t2"}'
+--- RESPONSE ---
++-------------------------- customer_support_agent ---------------------------+
+| Session: eb597fe4-5944-4f6e-8d76-61a5a2df3d2e                               |
+| Request ID: 81c249ee-ed7e-407f-91a3-fc5c2c18771f                            |
+| ARN:                                                                        |
+| arn:aws:bedrock-agentcore:us-east-1:084942134421:runtime/customer_support_a |
+| gent-WOlrNpFLIt                                                             |
+| Logs: aws logs tail                                                         |
+| /aws/bedrock-agentcore/runtimes/customer_support_agent-WOlrNpFLIt-DEFAULT   |
+| --log-stream-name-prefix "2026/09/26/[runtime-logs]" --follow               |
+|       aws logs tail                                                         |
+| /aws/bedrock-agentcore/runtimes/customer_support_agent-WOlrNpFLIt-DEFAULT   |
+| --log-stream-name-prefix "2026/09/26/[runtime-logs]" --since 1h             |
+| GenAI Dashboard:                                                            |
+| https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-obse |
+| rvability/agent-core                                                        |
++-----------------------------------------------------------------------------+
+
+Response:
+Your refund for the Kindle Paperwhite (Order #ORD-002) has been approved! 
+
+**Refund ID:** REF-QR31H5UM  
+**Amount:** $139.99  
+**Status:** APPROVED  
+**Timeline:** Credit will appear in your account within 3-5 business days.
+
+If you have any other questions, let me know!
+
